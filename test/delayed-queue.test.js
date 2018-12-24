@@ -3,11 +3,11 @@
 const request = require('supertest');
 const mm = require('egg-mock');
 
-describe('test/delayed-job.test.js', () => {
+describe('test/delayed-queue.test.js', () => {
   let app;
   before(() => {
     app = mm.app({
-      baseDir: 'apps/delayed-job-test',
+      baseDir: 'apps/delayed-queue-test',
     });
     return app.ready();
   });
@@ -18,7 +18,7 @@ describe('test/delayed-job.test.js', () => {
   it('should GET /', () => {
     return request(app.callback())
       .get('/')
-      .expect('hi, delayedJob')
+      .expect('hi, delayedQueue')
       .expect(200);
   });
 });
