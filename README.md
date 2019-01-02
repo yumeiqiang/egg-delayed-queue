@@ -72,7 +72,7 @@ app.queue.process('orderNo', (job, done) => {
     ctx.service.home.dealOrder(job.data, done); // dealOrder是自定义的方法
 });
 
-在需要的地方订阅一个消息
+// 在需要的地方订阅一个消息
 app.queue.create('orderNo', {
     orderNo: '1111111',
     create_time: Date.now()

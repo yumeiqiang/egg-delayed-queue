@@ -1,6 +1,6 @@
 {
   "name": "egg-delayed-queue",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A priority job queue backed by redis, built for eggjs.",
   "eggPlugin": {
     "name": "queue"
@@ -51,12 +51,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Justin-lu/egg-delayed-queue.git"
+    "url": "git+https://github.com/yumeiqiang/egg-delayed-queue.git"
   },
   "bugs": {
-    "url": "https://github.com/Justin-lu/egg-delayed-queue/issues"
+    "url": "https://github.com/yumeiqiang/egg-delayed-queue/issues"
   },
-  "homepage": "https://github.com/Justin-lu/egg-delayed-queue#readme",
-  "author": "Justin-lu",
+  "homepage": "https://github.com/yumeiqiang/egg-delayed-queue#readme",
+  "author": "yumeiqiang",
   "license": "MIT"
 }
